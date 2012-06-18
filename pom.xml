@@ -9,6 +9,18 @@
 	<packaging>jar</packaging>
 	<name>hibernate-jpa-config-samples</name>
 
+    <repositories>
+		<repository>
+			<id>jboss-public-repository-group</id>
+			<name>JBoss Public Maven Repository Group</name>
+			<url>http://repository.jboss.com/maven2</url>
+		</repository>
+        <repository>
+            <id>repo2_maven_org</id>
+            <url>http://repo2.maven.org/maven2</url>
+        </repository>
+	</repositories>
+    
 	<properties>
 		<maven.test.failure.ignore>true</maven.test.failure.ignore>
 		<spring.framework.version>3.1.1.RELEASE</spring.framework.version>
